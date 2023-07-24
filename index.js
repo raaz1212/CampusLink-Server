@@ -66,7 +66,7 @@ async function run() {
             dob: updateUser.dob,
             country: updateUser.country,
             address: updateUser.address,
-            university: updateUser.university,
+            college: updateUser.college,
           },
         };
         const result = await usersCollection.updateOne(filter, newUser);
